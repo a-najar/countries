@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Countries</string>
+    <string name="item_string">Item %1$d</string>
+    <string name="fastscroller_track">FastScroller track</string>
+    <string name="fastscroller_handle">FastScroller handle</string>
+</resources>

@@ -1,0 +1,33 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fastscroller_handle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/fastscroll_handle"
+        android:contentDescription="@string/fastscroller_handle"
+        android:elevation="4dp"
+        android:visibility="invisible">
+
+        <TextView
+            style="@style/Base.TextAppearance.AppCompat.Body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="A"
+            android:textColor="@android:color/white" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/fastscroller_bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/fastscroller_track_padding"
+        android:layout_marginStart="@dimen/fastscroller_track_padding"
+        android:contentDescription="@string/fastscroller_track"
+        android:src="@drawable/fastscroll_bubble" />
+
+</merge>
